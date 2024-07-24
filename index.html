@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elixir</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Elixir</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="ofertas.html">Ofertas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="img/banner5.jpg" alt="Banner 5" id="lastClone">
+                    <img src="img/banner1.jpg" alt="Banner 1">
+                    <img src="img/banner2.jpg" alt="Banner 2">
+                    <img src="img/banner3.jpg" alt="Banner 3">
+                    <img src="img/banner4.jpg" alt="Banner 4">
+                    <img src="img/banner5.jpg" alt="Banner 5">
+                    <img src="img/banner1.jpg" alt="Banner 1" id="firstClone">
+                </div>
+            </div>
+            <button id="prevBtn">❮</button>
+            <button id="nextBtn">❯</button>
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide-to="1"></span>
+                <span class="indicator" data-slide-to="2"></span>
+                <span class="indicator" data-slide-to="3"></span>
+                <span class="indicator" data-slide-to="4"></span>
+                <span class="indicator" data-slide-to="5"></span>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2>Productos Destacados</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="img/Tonayan.jpeg" alt="licor de agave Tonayan de 5 litros">
+                        <h3>Tonayan de 5 litros</h3>
+                        <p>$193</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/Paisano.jpeg" alt="licor de agave Paisano de 1 litros">
+                        <h3>Paisano de 1 litros</h3>
+                        <p>$50</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="img/Don_ramon_cristalino.jpeg" alt="Tequila Don ramon platinum de 700 ml">
+                        <h3>Don Ramón platinum de 700ml</h3>
+                        <p>$1300</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/Smirnoff_guava.webp" alt="Infucion de vodka sabor guayaba, Smirnoff guava de 750 ml">
+                        <h3>Smirnoff Electric Guava de 750 ml</h3>
+                        <p>$223</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tienda en Línea. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
